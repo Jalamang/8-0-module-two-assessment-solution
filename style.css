@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+  background: lavender;
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  background: skyblue;
+  height: 25%
+}
+
+h1 {
+    text-align: right;
+}
+
+img {
+    width: 100%
+}
