@@ -7,17 +7,21 @@
     <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
-    <header>
-      <h1>Ghibli Review App</h1>
-      <img src='https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png'>
-    </header>
-    <select></select>
-    <section id="display-info"></section>
-    <form>
-      <label for="review">Your Review</label>
-      <input name="review" type="text"/>
-      <input type="submit" value="Submit Review"/>
-    </form>
-    <ul></ul>
+    <div id="container">
+      <header>
+        <img src='https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png'>
+        <h1>Ghibli Review App</h1>
+      </header>
+      <form id="select">
+        <select></select>
+      </form>
+      <section id="display-info"></section>
+      <form id="review">
+        <label for="review" id="review-label">Your Review</label>
+        <input name="review" id="review-input" type="text"/>
+        <input type="submit" value="Submit Review" id="review-button" />
+      </form>
+      <ul></ul>
+    </div>
   </body>
 </html>
